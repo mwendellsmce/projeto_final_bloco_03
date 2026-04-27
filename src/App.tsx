@@ -3,7 +3,7 @@ import Navbar from './components/navbar/Navbar'
 import Footer from './components/footer/Footer'
 import Home from './pages/home/Home'
 import ListaCategorias from './components/categorias/listacategorias/ListaCategorias'
-import FormCategoria from './components/categorias/form/FormCategoria'
+import FormCategoria from './components/categorias/formcategorias/FormCategorias'
 import DeletarCategorias from './components/categorias/deletarcategorias/DeletarCategorias'
 
 function App() {
