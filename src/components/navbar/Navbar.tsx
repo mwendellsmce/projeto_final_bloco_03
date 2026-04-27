@@ -24,8 +24,8 @@ function Navbar() {
       </div>
 
       <div className="flex items-center gap-6 font-medium">
-        <a href="#" className="hover:text-blue-200 transition-colors">Categorias</a>
-        <a href="#" className="hover:text-blue-200 transition-colors">Cadastrar Categoria</a>
+        <Link to="/categorias" className="hover:text-blue-200 transition-colors">Categorias</Link>
+        <Link to="/cadastrarcategoria" className="hover:text-blue-200 transition-colors">Cadastrar Categoria</Link>
         <User size={28} className="cursor-pointer hover:text-blue-200 transition-colors" />
         <ShoppingCart size={28} className="cursor-pointer hover:text-blue-200 transition-colors" />
       </div>
