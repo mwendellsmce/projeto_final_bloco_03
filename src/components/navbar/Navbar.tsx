@@ -1,14 +1,14 @@
 import { MagnifyingGlass, User, ShoppingCart, FirstAid } from '@phosphor-icons/react'
+import { Link } from 'react-router-dom'
 
 function Navbar() {
   return (
     <nav className="w-full bg-indigo-900 text-white flex justify-between items-center py-4 px-8 shadow-md">
       
-      {/* Logo com o ícone FirstAid do Phosphor Icons */}
-      <div className="flex items-center gap-2 text-2xl font-bold cursor-pointer">
+      <Link to="/home" className="flex items-center gap-2 text-2xl font-bold cursor-pointer">
         <FirstAid size={32} weight="fill" className="text-red-500" />
-        <span>FARMÁCIA</span>
-      </div>
+        <span>PHARMACIA</span>
+      </Link>
 
       <div className="flex flex-1 justify-center px-8">
         <div className="flex w-full max-w-2xl bg-white rounded-lg overflow-hidden">
