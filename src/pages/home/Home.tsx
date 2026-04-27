@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import homeLogo from '../../assets/home.png'
 
 function Home() {
@@ -11,9 +12,12 @@ function Home() {
           <p className="text-xl font-medium">Aqui você encontra Medicamentos e Cosméticos!</p>
           
           <div className="mt-4">
-            <button className="bg-indigo-900 text-white px-6 py-2 rounded-lg font-medium hover:bg-indigo-800 transition-colors shadow-md">
+            <Link 
+              to="/cadastrarcategoria" 
+              className="bg-indigo-900 text-white px-6 py-2 rounded-lg font-medium hover:bg-indigo-800 transition-colors shadow-md inline-block"
+            >
               Cadastrar Produto
-            </button>
+            </Link>
           </div>
         </div>
 
